@@ -6,7 +6,7 @@ Vivian Otieno
 ## Description
 Pizzaria is a pizza website where you can order any size of pizza you want and also choose your preffered crust and toppings. 
 
-## Live Link:
+## Live Link:https://vivianotieno7.github.io/pizza/
 
 ## Setup Directions:
 * clone the repository
