@@ -1,4 +1,4 @@
-# PIZZA
+# PIZZARIA
 
 ### Author:
 Vivian Otieno
