@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Pizza Site</title>
+</head>
+<body>
+    <div class="navigation-container">
+        <div class="navigation-content">
+            <!---logo-->
+            <div class="logo">
+                <p>PIZZARIA</p>
+            </div>
+
+            <!--menu-->
+            <div class="menu">
+                <ul>
+                    <li><a href="#food-A,food-B,food-C">MENU</a></li>
+                    <li><a href="#food-A,food-B,food-C">PRIZE</a></li>
+                </ul>
+            </div>
+            <!--checkout-->
+            <div class="checkout">
+                <a href="#form id=new-pizza">CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+    <!--navigation-end-->
+    
+    <div class="content">
+          <div class="tools">
+             <div class="order">
+                 <a href="#food-A,food-B,food-C"> <font style="color:orange">ORDER</font style><font style="color:black">HERE:</font></a>
+                 <form id="new-pizza">
+                    <div class="form-group">
+                        <label for="new-first-size">SIZE</label>
+                        <input type="text" class="form-control" id="new-first-size">
+                    </div>
+                    <div class="form-group">
+                        <label for="new-second-crust">CRUST</label>
+                        <input type="text" class="form-control" id="new-second-crust">
+                    </div>
+                    <div class="form-group">
+                        <label for="new-third-topping">TOPPING</label>
+                        <input type="text" class="form-control" id="new-third-topping">
+                    </div>
+                    <button type="submit" class="btn">ADD TO CART</button>
+                </form>
+             </div>
+          </div>
+      </div>
+         <!-----row-1------------------------>
+      <div class="first-row">
+             <!--A---->
+             <div class="food-A">
+                 <div class="name">
+                     <h2>PIZZA SIZES</h2>
+                     <p>Small</p>
+                     <div class="price"><button>Ksh 500</button></div>
+                     <p>Medium</p>
+                     <div class="price"><button>Ksh 1000</button></div>
+                     <p>Large</p>
+                     <div class="price"><button>Ksh 1500</button></div>
+                 </div>
+              </div>
+             <!--B---->
+             <div class="food-B">
+                 <div class="name">
+                     <h2>CRUST TYPES</h2>
+                     <p>Crispy</p>
+                     <div class="price"><button>Ksh 500</button></div>
+                     <p>Stuffed</p>
+                     <div class="price"><button>Ksh 1000</button></div>
+                     <p>Gluten Free</p>
+                     <div class="price"><button>Ksh 1500</button></div>
+                 </div>
+             </div>
+             <!--C---->
+             <div class="food-C">
+                 <div class="name">
+                     <h2>TOPPINGS</h2>
+                     <p>Veggie Topping</p>
+                     <div class="price"><button>Ksh 500</button></div>
+                     <p>Chicken Topping</p>
+                     <div class="price"><button>Ksh 1000</button></div>
+                     <p>Red Meat Topping</p>
+                     <div class="price"><button>Ksh 1500</button></div>
+                 </div>
+             </div>
+        </div> 
+    </div>
+    <!-------------footer----------->
+    <div class="footer">
+        <div class="social">
+            <p>Copyright &#169 PIZZARIA 2020</p>
+        </div>
+    </div>
+    <!---------------javascript------------------>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
