@@ -1,6 +1,7 @@
 # PIZZA
 
-### Author: Vivian Otieno
+### Author:
+Vivian Otieno
 
 ## Description
 Pizzaria is a pizza website where you can order any size of pizza you want and also choose your preffered crust and toppings. 
@@ -16,4 +17,4 @@ HTML,CSS and JavaScript
 
 ### License
 *MIT
-Copyright 2020 Vivian Otieno
+Copyright 2020 Pizzaria
